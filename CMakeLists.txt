@@ -34,8 +34,18 @@ set_target_properties(SpongebobGame PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/$<0:>"
 )
 
+target_include_directories(SpongebobGame PRIVATE external)
+
+add_custom_command(TARGET SpongebobGame POST_BUILD
+    COMMAND "${CMAKE_COMMAND}" -E copy_directory
+        "${CMAKE_CURRENT_SOURCE_DIR}/assets"
+        "$<TARGET_FILE_DIR:SpongebobGame>/assets"
+    COMMENT "Kopiere Hintergrundbilder"
+)
+
 add_custom_target(run
     COMMAND $<TARGET_FILE:SpongebobGame>
     DEPENDS SpongebobGame
     USES_TERMINAL
 )
+
