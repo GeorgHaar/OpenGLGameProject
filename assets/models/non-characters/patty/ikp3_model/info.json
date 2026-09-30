@@ -1,0 +1,22 @@
+{
+  "name": "ikp3_model",
+  "folder": "ikp3_model",
+  "source_grn": "Spongebob_Employee_of_the_Month\\Employee of the Month\\models\\items\\ikp3_model.grn",
+  "source_omt": "Spongebob_Employee_of_the_Month\\Employee of the Month\\models\\items\\ikp3_model.omt",
+  "is_model_file": true,
+  "glb": "createdModells\\ikp3_model\\ikp3_model.glb",
+  "vertices": 999,
+  "triangles": 540,
+  "meshes": 2,
+  "bones": 3,
+  "rigged": true,
+  "max_influences_per_vertex": 0,
+  "texture_referenced_by_grn": "patty.bmp",
+  "texture_canvas_used": "patty",
+  "texture_png": "createdModells\\ikp3_model\\patty.png",
+  "bone_names": [
+    "__Root",
+    "Burger",
+    "patty"
+  ]
+}

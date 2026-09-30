@@ -1,0 +1,31 @@
+SPONGEBOB_WALK 4
+background "chapter1_crab_background04.png"
+image_size 1672 941
+camera 0.620000005 6.19999981 45
+spawn 512.299927 829.326172
+clearance 0.419999987
+cell_size 0.180000007
+boundary 8
+  271.281189 751.508423
+  476.633514 751.508423
+  654.965759 576.418579
+  1014.87268 577.49939
+  1126.19531 715.84198
+  1338.03235 872.558228
+  1303.44666 923.355896
+  201.029099 900.659058
+obstacles 0
+transitions 1
+name "Übergang 1"
+target "background:chapter1_crab_background02.png"
+polygon 6
+  104.837753 247.854874
+  102.676147 890.931824
+  263.715576 904.982239
+  317.755646 766.639648
+  277.766022 229.481247
+  96.1913376 238.127655
+scene_sizes 1
+scene_size "background:chapter1_crab_background04.png" 2.44000006
+props 0
+end

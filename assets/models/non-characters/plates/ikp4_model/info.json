@@ -1,0 +1,21 @@
+{
+  "name": "ikp4_model",
+  "folder": "ikp4_model",
+  "source_grn": "Spongebob_Employee_of_the_Month\\Employee of the Month\\models\\items\\ikp4_model.grn",
+  "source_omt": "Spongebob_Employee_of_the_Month\\Employee of the Month\\models\\items\\ikp4_model.omt",
+  "is_model_file": true,
+  "glb": "createdModells\\ikp4_model\\ikp4_model.glb",
+  "vertices": 92,
+  "triangles": 144,
+  "meshes": 1,
+  "bones": 2,
+  "rigged": true,
+  "max_influences_per_vertex": 0,
+  "texture_referenced_by_grn": "platedirt.bmp",
+  "texture_canvas_used": "platedirt",
+  "texture_png": "createdModells\\ikp4_model\\platedirt.png",
+  "bone_names": [
+    "__Root",
+    "Sphere01"
+  ]
+}

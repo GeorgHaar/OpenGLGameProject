@@ -1,0 +1,22 @@
+{
+  "name": "ikp7_model",
+  "folder": "ikp7_model",
+  "source_grn": "Spongebob_Employee_of_the_Month\\Employee of the Month\\models\\items\\ikp7_model.grn",
+  "source_omt": "Spongebob_Employee_of_the_Month\\Employee of the Month\\models\\items\\ikp7_model.omt",
+  "is_model_file": true,
+  "glb": "createdModells\\ikp7_model\\ikp7_model.glb",
+  "vertices": 365,
+  "triangles": 244,
+  "meshes": 2,
+  "bones": 3,
+  "rigged": true,
+  "max_influences_per_vertex": 0,
+  "texture_referenced_by_grn": "patty2.bmp",
+  "texture_canvas_used": "patty2",
+  "texture_png": "createdModells\\ikp7_model\\patty2.png",
+  "bone_names": [
+    "__Root",
+    "patty",
+    "Sphere01"
+  ]
+}
